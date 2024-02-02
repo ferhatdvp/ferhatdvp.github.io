@@ -24,12 +24,29 @@
 </head>
 
 <body>
-  <div class="row" style="margin:auto">
-    <a href="../index.html" class="btn btn-dark" style="margin-right:5px;">Ana Sayfa</a>
-    <a href="../GameMobile/index.html" class="btn btn-dark" style="margin-right:5px;">Thorn Or Cherry Mobil</a>
-    <a href="../GameKeyboard/index.html" class="btn btn-dark" style="margin-right:5px;">Thorn Or Cherry Klavye</a>
-    <a href="../SnowBoarderKeyboard/index.html" class="btn btn-dark" style="margin-right:5px;">SnowBoarder Klavye</a>    
-</div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Ana Sayfa</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="../GameMobile/index.html">Thorn Or Cherry Mobile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../GameKeyboard/index.html">Thorn Or Cherry Keyboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../SnowBoarderKeyboard/index.html">SnowBoarder Keyboard</a>
+          </li>
+
+      </ul>
+    </div>
+  </nav>
   <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas" width=960 height=600></canvas>
     <div id="unity-loading-bar">
